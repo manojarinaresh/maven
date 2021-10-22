@@ -2,7 +2,7 @@ pipeline {
     agent any
     stages {
         stage('Example') {
-           steps { bat "exit 0" }
+           steps { "test" }
         }
     }
     post { 
