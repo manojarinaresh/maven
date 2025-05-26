@@ -76,17 +76,7 @@
 </plugins>
 </build>
   
-#<distributionManagement>
-    #<snapshotrepository>
-        #<id>project-snapshot</id>
-        #<url>http://3.86.90.99:8082/artifactory/artifactory-build-info/</url>
-    #</snapshotrepository>
-    #<repository>
-       #<id>project-release</id>
-        #<url>http://3.86.90.99:8082/artifactory/artifactory-build-info/</url>
-    #</repository>
-#</distributionManagement> 
-  
+ 
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
